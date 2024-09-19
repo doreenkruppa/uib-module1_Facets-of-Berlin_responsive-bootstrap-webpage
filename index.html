@@ -11,64 +11,80 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <style>
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        width: 8rem; 
+        height: 8rem; 
+        background-size: 100%;    
+      }
+      #searchInput {min-width: calc(8ch + 1rem); 
+}
+    
+    </style>
   </head>
 
   <body>
+      
+      
       <nav class="navbar navbar-expand-md bg-dark py-3 fixed-top px-3">
-           <a  class="navbar-brand text-decoration-none text-white px-2 fs-3" href="#">Carousel</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          ><span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand text-decoration-none text-white px-2 fs-3" href="#">Facets of Berlin</a>
+     
+        <!-- Full navigation for larger screens -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-decoration-none text-white px-2 fs-5" href="#">Home <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-decoration-none text-white-50 px-2 fs-5" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-decoration-none text-white-50 px-2 fs-5"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-decoration-none text-white-50 px-2 fs-5 bg-dark" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+      
+          <!-- Search form visible on larger screens -->
+          <form class="d-flex m-2 my-lg-0 d-none d-md-flex" role="search">
+            <input id="searchInput" class="form-control me-2 px-2 fs-5" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-primary fs-5 px-4 py-2 mx-4" type="submit">Search</button>
+          </form>
+        </div>
+      
+        <!-- Dropdown menu for mobile screens -->
+        
+        
+        <div class="dropdown d-md-none">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="mobileMenuDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active text-decoration-none text-white px-2 fs-5" href="#">Home <span class="visually-hidden">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-decoration-none text-white-50 px-2 fs-5" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-decoration-none text-white-50 px-2 fs-5"
-                  href="#"
-                  role="button"
-                  id="dropdownMenuLink"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li><li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-decoration-none text-white-50 px-2 fs-5 bg-dark"  href="#"
-                tabindex="-1"
-                aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-
-          <form class="d-flex m-2 my-lg-0" role="search">
-          <input class="form-control me-2 px-2 fs-5" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn btn-outline-success fs-5 px-4 py-2 mx-4" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
+          <ul class="dropdown-menu" aria-labelledby="mobileMenuDropdown">
+            <li><a class="dropdown-item" href="#">Home</a></li>
+            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown</a></li>
+            <li><a class="dropdown-item" href="#">Search</a></li>
+          </ul>
+        </div>
       </nav>
+      
 <!--ab hier Carousel-->
       <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
 
@@ -80,27 +96,27 @@
 
         <div class="carousel-inner ">
           <div class="carousel-item active ">
-            <img src="./images/1.jpg" class="d-block w-100 vh-100" alt="...">
+            <img src="./images/eastside_gallery.jpg" class="d-block w-100 vh-100" alt="Image of the eastside gallery" title="Photo of eastside gallery by Rikin Katyal on Unsplash">
             <div class="carousel-caption d-none d-md-block text-right mb-5 pb-5">
-              <h1 class="display-5 fw-bolder" >One more for good meassure.</h1>
-              <p class="fs-3 py-4">Some representative placeholder content for the first slide.</p>
+              <h1 class="display-3 fw-bolder" >One more for good meassure.</h1>
+              <p class="fs-1 py-4 fw-bolder">Some representative placeholder content for the first slide.</p>
               <button class="bg-primary text-white fs-4 p-3 border border-0 rounded btn-lg "> Browse gallery</button>
             </div>
           </div>
 
           <div class="carousel-item ">
-            <img src="./images/2.jpg" class="d-block w-100 vh-100" alt="...">
-            <div class="carousel-caption d-none d-md-block text-center mb-5 pb-5 ">
-              <h1 class="display-5 fw-bolder">Another example headline.</h1>
-              <p class="fs-3 py-4">Some representative placeholder content for the second slide.</p>
+            <img src="./images/alex_night.jpg" class="d-block w-100 vh-100" alt="Alexanderplatz at night" title="Photo of Alexanderplatz at night by Norbert Braun on Unsplash">
+            <div class="carousel-caption d-none d-md-block text-center mb-6 pb-5 ">
+              <h1 class="display-3 fw-bolder ">Another example headline.</h1>
+              <p class="fs-1 py-4 fw-bolder ">Some representative placeholder content for the second slide.</p>
               <button class="bg-primary text-white fs-4 p-3 border border-0 rounded btn-lg ">Learn more</button>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/3.jpg" class="d-block w-100 vh-100" alt="...">
+            <img src="./images/Berlin_Luftaufnahme.jpg" class="d-block w-100 vh-100" alt="Berlin from above" title="Berlin from above by Jonas Tebbe on Unsplash">
             <div class="carousel-caption d-none d-md-block text-left mb-5 pb-5 ">
-              <h1 class="display-5 fw-bolder">Example headline.</h1>
-              <p class="fs-3 py-4">Some representative placeholder content for the third slide.</p>
+              <h1 class="display-3 fw-bolder">Example headline.</h1>
+              <p class="fs-1 py-4 fw-bolder">Some representative placeholder content for the third slide.</p>
               <button class="bg-primary text-white fs-4 p-3 border border-0 rounded btn-lg">Sign up today</button>
             </div>
           </div>
@@ -121,8 +137,9 @@
           <div class="card m-4 border-0">
           <img
             class="rounded-circle mx-auto my-5 "
-            src="./images/4.jpg"
-            alt="flowers"
+            src="./images/tempelhofer_feld.jpg"
+            alt="tempelhofer feld"
+            title="photo of tempelhofer feld by Victoria Prymark on Unsplash"
             width="150px"
             height="150px"
           />
@@ -144,8 +161,9 @@
       <div class="card m-4 border-0">
           <img
             class="rounded-circle mx-auto my-5 "
-            src="./images/5.jpg"
-            alt="flowers"
+            src="./images/berlin_arena.jpg"
+            alt="Arena by night"
+            title="photo of arena by night by Stephan Widua on Unsplash"
             width="150px"
             height="150px"
           />
@@ -166,8 +184,9 @@
       <div class="card m-4 border-0">
           <img
             class="rounded-circle mx-auto my-5 "
-            src="./images/6.jpg"
-            alt="flowers"
+            src="./images/berlin_rosenthaler.jpg"
+            alt="rosenthaler platz"
+            title="photo of rosenthaler platz by Gilly on Unsplash"
             width="150px"
             height="150px"
           />
@@ -200,8 +219,9 @@
           <div class="col-12 col-md-5 img_item order-0 order-md-1 ">
             <img
               class="rounded img-fluid img-thumbnail"
-              src="./images/5.jpg"
-              alt=""
+              src="./images/tempelhofer_feld.jpg"
+              alt="tempelhofer feld"
+              title="photo of tempelhofer feld by Victoria Prymark on Unsplash"
               width="100%"
               
             />
@@ -212,8 +232,9 @@
           <div class="img_item col-12 col-md-5">
             <img
               class="rounded img-fluid img-thumbnail"
-              src="./images/6.jpg"
-              alt=""
+              src="./images/berlin_arena.jpg"
+              alt="Arena by night"
+              title="photo of arena by night by Stephan Widua on Unsplash"
               width="100%"
               
             />
@@ -247,8 +268,9 @@
           <div class="img_item col-12 col-md-5 order-0 order-md-1 ">
             <img
               class="rounded img-fluid img-thumbnail"
-              src="./images/7.jpg"
-              alt=""
+              src="./images/berlin_rosenthaler.jpg"
+              alt="rosenthaler platz"
+            title="photo of rosenthaler platz by Gilly on Unsplash"
               width="100%"            
             />
           </div>
@@ -257,8 +279,8 @@
     </main>
     <footer class=" px-5 py-5 fs-5 d-flex justify-content-between mx-5">
       <div class="item_left_footer ms-5 d-flex">
-        <p class="pe-2">&copy; 2017-2019 Company, Inc.</p>
-        <a class="text-decoration-none" href="#">Privacy Terms</a>
+        <p class="pe-2">&copy; 2022 doreen kruppa, Inc.</p>
+       
       </div>
       <div class="item_right_footer me-5">
         <a class="text-decoration-none" href="#"> Back to top</a>

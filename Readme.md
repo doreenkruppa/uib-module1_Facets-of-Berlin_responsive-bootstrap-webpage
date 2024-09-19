@@ -1,19 +1,28 @@
-# Responsive Bootstrap Webpage
+# Facets of Berlin - Responsive Bootstrap Webpage
 
-Create the webpage shown below in the reference image using **only** Bootstrap - no CSS should be necessary.
+## Exercise Course-Module 1 - UserInterfaceBasics (UIB) - HTML/CSS
 
-## The desktop overview
+created at 01.11.22;
+
+Created a webpage as close as possible to the layout of the reference images (mobile/desktop);
+used: Bootstrap with Carousel, Nav-Bar with Dropdown-Menue, Breakpoints, Grid, Cards, Images etc...
+
+### The desktop overview
 
 ![The overview](./images/desktop.png "The general overview")
 
-## The mobile overview
+### The mobile overview
 
 ![The overview](./images/mobile.png "The mobile overview")
 
-## Keep in mind
+### Images-Sources:
 
-- Notice the layout differences in the mobile version by following the link below
+Berlin_arena: Photo by <a href="https://unsplash.com/@stewi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephan Widua</a> on <a href="https://unsplash.com/photos/street-corner-at-night-OAGa7kxfDNY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-- Try and make your webpage as close to the reference as possible
+Berlin_rosenthaler platz: Photo by <a href="https://unsplash.com/@gillyberlin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gilly</a> on <a href="https://unsplash.com/photos/bus-and-cars-on-road-8vzFINl6zV8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-[Live Version](https://hsnakk.github.io/UIB_Framework_Bootstrap_Exercise-1/)
+tempelhofer_Feld: Photo by <a href="https://unsplash.com/@vprmk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victoria Prymak</a> on <a href="https://unsplash.com/photos/a-grassy-field-with-a-water-tower-in-the-background-AoVkvse3DhM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Berlin_Luftaufnahme:Photo by <a href="https://unsplash.com/@jonastebbe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonas Tebbe</a> on <a href="https://unsplash.com/photos/white-tower-in-the-middle-of-city-LDMDCVtQqR4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Alexanderplatz at night by Norbert Braun </a> on <a href="https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-tall-building-f7_2hfPX85Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Eastside-Gallery by <a href="https://unsplash.com/@sirvar?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rikin Katyal</a> on <a href="https://unsplash.com/photos/a-wall-with-graffiti-zSi9Z6QeCQQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
