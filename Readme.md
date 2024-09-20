@@ -2,18 +2,18 @@
 
 ## Exercise Course-Module 1 - UserInterfaceBasics (UIB) - HTML/CSS
 
-created at 01.11.22;
+created at 28.10.22;
 
 Created a webpage as close as possible to the layout of the reference images (mobile/desktop);
 used: Bootstrap with Carousel, Nav-Bar with Dropdown-Menue, Breakpoints, Grid, Cards, Images etc...
 
-### The desktop overview
+#### My desktop version:
 
-![The overview](./images/desktop.png "The general overview")
+![my_desktop](/images/my_desktop_version.png)
 
-### The mobile overview
+#### My mobile version:
 
-![The overview](./images/mobile.png "The mobile overview")
+![my_mobile](/images/my_mobile_version.png)
 
 ### Images-Sources:
 
