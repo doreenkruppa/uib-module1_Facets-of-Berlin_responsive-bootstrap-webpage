@@ -15,6 +15,18 @@ used: Bootstrap with Carousel, Nav-Bar with Dropdown-Menue, Breakpoints, Grid, C
 
 ![my_mobile](/images/my_mobile_version.png)
 
+### the reference images:
+
+#### The desktop overview
+
+![The overview](./images/desktop.png "The general overview")
+
+#### The mobile overview
+
+![The overview](./images/mobile.png "The mobile overview")
+
+## Keep in mind
+
 ### Images-Sources:
 
 Berlin_arena: Photo by <a href="https://unsplash.com/@stewi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stephan Widua</a> on <a href="https://unsplash.com/photos/street-corner-at-night-OAGa7kxfDNY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
