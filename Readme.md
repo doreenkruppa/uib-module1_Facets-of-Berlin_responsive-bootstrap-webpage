@@ -4,28 +4,28 @@
 
 created at 28.10.22;
 
-Created a webpage as close as possible to the layout of the reference images (mobile/desktop);
+Created a webpage as close as possible to the layout of the reference images/Mockups (mobile/desktop);
 used: Bootstrap with Carousel, Nav-Bar with Dropdown-Menue, Breakpoints, Grid, Cards, Images etc...
 
-#### My desktop version:
+### My Versions:
+
+#### desktop version:
 
 ![my_desktop](/images/my_desktop_version.png)
 
-#### My mobile version:
+#### mobile version:
 
 ![my_mobile](/images/my_mobile_version.png)
 
-### the reference images:
+### Mockups:
 
-#### The desktop overview
+#### desktop
 
-![The overview](./images/desktop.png "The general overview")
+![The desktop-mockup](./images/desktop.png "The general overview")
 
-#### The mobile overview
+#### mobile
 
-![The overview](./images/mobile.png "The mobile overview")
-
-## Keep in mind
+![The mobile-mockup](./images/mobile.png "The mobile overview")
 
 ### Images-Sources:
 
